@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    HOLA MUNDO SOY ESTEBAN, BIENVENIDO A MI PAGINA
                 </div>
 
                 <div class="links">
