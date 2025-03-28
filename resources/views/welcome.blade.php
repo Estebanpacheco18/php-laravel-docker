@@ -12,8 +12,8 @@
         <!-- Styles -->
         <style>
             html, body {
-                background-color: #fff;
-                color: #636b6f;
+                background-color: #e8f5e9; /* Verde claro */
+                color: #1b5e20; /* Verde oscuro */
                 font-family: 'Nunito', sans-serif;
                 font-weight: 200;
                 height: 100vh;
@@ -46,16 +46,26 @@
 
             .title {
                 font-size: 84px;
+                color: #2e7d32; /* Verde más intenso */
             }
 
             .links > a {
-                color: #636b6f;
-                padding: 0 25px;
-                font-size: 13px;
+                color: #ffffff; /* Blanco */
+                background-color: #43a047; /* Verde medio */
+                padding: 10px 25px;
+                font-size: 14px;
                 font-weight: 600;
                 letter-spacing: .1rem;
                 text-decoration: none;
                 text-transform: uppercase;
+                border-radius: 5px;
+                margin: 5px;
+                display: inline-block;
+            }
+
+            .links > a:hover {
+                background-color: #1b5e20; /* Verde oscuro */
+                color: #e8f5e9; /* Verde claro */
             }
 
             .m-b-md {
